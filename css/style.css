@@ -1,0 +1,91 @@
+/* montserrat-700 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/montserrat-v25-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/montserrat-v25-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/montserrat-v25-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v25-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/montserrat-v25-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/montserrat-v25-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+/* nunito-700 - latin */
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/nunito-v25-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/nunito-v25-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/nunito-v25-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/nunito-v25-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/nunito-v25-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/nunito-v25-latin-700.svg#Nunito') format('svg'); /* Legacy iOS */
+  }    
+
+html {
+    box-sizing: border-box;
+  }
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-weight: normal;
+    color: black;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.banner {
+    height: 1024px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 208px;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 600px 439px;
+    grid-column-gap: 100px;
+    background-color: #F3F4F6;
+    width: 1274px;
+    height: 607px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+.banner_info {
+    padding-left: 106px;
+    text-align: left;
+}
+.banner_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    color: #2C1500;
+    text-align: left;
+    margin-top: 148px;
+    margin-bottom: 32px;
+}
+.banner_submit {
+    display: flex;
+    justify-content: center;
+    min-width: 152px;
+    padding: 10px 42px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FAFEFE;
+    background: #156963;
+    border: 1px solid #156963;
+}
